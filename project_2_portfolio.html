@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<html lang="en">
+<head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -45,37 +46,50 @@
     <main>
       <section class="jumbotron text-center">
         <div class="container">
-          <h1 class="jumbotron-heading">Chris Adamson : Full Stack Web Developer</h1>
-          <p class="lead text-muted">This portfolio conists of a number of projects, which demonstrate the ability to build server-side web applications, and the core of work as a Full Stack Web Developer.  Applications can be developed to support any front-end, and are scalable to support any number of users.</p>
+          <div class="row">
+            <div class="col">
+              <img class="logo" alt="logo" src="img/full_stack_logo.jpg">
+              <h1 class="jumbotron-heading">Chris Adamson : Full Stack Web Developer</h1>
+            </div>
+            <div class="col">
+              <p class="lead text-muted">This portfolio conists of a number of projects, which demonstrate the ability to build server-side web applications, and the core of work as a Full Stack Web Developer.  Applications can be developed to support any front-end, and are scalable to support any number of users.</p>
+            </div>
+          </div>
         </div>
       </section>
 
       <div class="album text-muted">
         <div class="container">
           <div class="row">
-            <div class="card">
-              <img alt="Movie Trailer Website" src="img/p1_mtw.jpg">
-              <p class="card-text">The movie trailer website consists server-side code to store a list of my favorite movies, including box art imagery and a movie trailer URL. The data is served as a web page allowing visitors to review their movies and watch the trailers.</p>
+            <div class="col">
+                <div class="card">
+                  <img alt="Movie Trailer Website" src="img/p1_mtw.jpg">
+                  <p class="card-text">The movie trailer website has server-side code to store a list of my favorite movies, including imagery and a trailer URL. The web page allows visitors to watch the trailers.</p>
+                </div>
+                <div class="card">
+                  <img alt="Portfolio Website" src="img/p2_portfolio.jpg">
+                  <p class="card-text">A responsive website that displays images, descriptions and links to each of the portfolio projects completed throughout the course of the Front-End Web Developer Nanodegree.</p>
+                </div>
+                <div class="card">
+                  <img alt="Logs Analysis" src="img/p3_logs_analysis.jpg">
+                  <p class="card-text">Data is analyzed  from the logs of a web service to answer questions such as "What is the most popular page?" and "When was the error rate high?" using advanced SQL queries.</p>
+                </div>
             </div>
-            <div class="card">
-              <img alt="Portfolio Website" src="img/p2_portfolio.jpg">
-              <p class="card-text">A responsive website that displays images, descriptions and links to each of the portfolio projects completed throughout the course of the Front-End Web Developer Nanodegree.</p>
-            </div>
-            <div class="card">
-              <img alt="Logs Analysis" src="img/p3_logs_analysis.jpg">
-              <p class="card-text">Data is analyzed  from the logs of a web service to answer questions such as "What is the most popular page?" and "When was the error rate high?" using advanced SQL queries.</p>
-            </div>
-            <div class="card">
-              <img alt="Item Catalog" src="img/p4_item_catalog.jpg">
-              <p class="card-text">An application is developed that provides a list of items within a variety of categories as well as provide a user registration and authentication system.</p>
-            </div>
-            <div class="card">
-              <img alt="Neighborhood Map" src="img/p5_neighborhood_map.jpg">
-              <p class="card-text">This is a single-page application featuring a map of a neighborhood. Additional functionality includes: map markers, a search function to easily discover these locations, and a listview to support browsing of all locations. Third-party APIs are used to provide additional information about each of these locations.</p>
-            </div>
-            <div class="card">
-              <img alt="Linux Server Configuration" src="img/p6_linux_server.jpg">
-              <p class="card-text">A baseline installation of a Linux distribution on a virtual machine is preparde it to host web application.</p>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <img alt="Item Catalog" src="img/p4_item_catalog.jpg">
+                <p class="card-text">An application is developed that provides a list of items within a variety of categories as well as provide a user registration and authentication system.</p>
+              </div>
+              <div class="card">
+                <img alt="Neighborhood Map" src="img/p5_neighborhood_map.jpg">
+                <p class="card-text">This is a single-page application featuring a map of a neighborhood. Additional functionality includes: map markers, a search function to easily discover these locations, and a listview to support browsing of all locations. Third-party APIs are used to provide additional information about each of these locations.</p>
+              </div>
+              <div class="card">
+                <img alt="Linux Server Configuration" src="img/p6_linux_server.jpg">
+                <p class="card-text">A baseline installation of a Linux distribution on a virtual machine is preparde it to host web application.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -84,9 +98,13 @@
 
     <footer class="text-muted">
       <div class="container">
-        <p class="float-right">
-          <a href="#">Back to top</a>
-        </p>
+        <div class="row">
+          <div class="col">
+            <p class="float-right">
+              <a href="#">Back to top</a>
+            </p>
+          </div>
+        </div>
       </div>
     </footer>
 
